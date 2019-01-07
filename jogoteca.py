@@ -4,6 +4,8 @@ from flask_mysqldb import MySQL
 from models import Jogo, Usuario
 import os, time
 
+# pip3 install flask_mysqldb==0.2.0
+
 app = Flask(__name__)
 app.secret_key = 'alura'
 
